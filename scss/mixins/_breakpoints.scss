@@ -28,7 +28,7 @@
       @content;
     }
   } @else if $point == sm-down {
-    @media (max-width: 1024px) {
+    @media (min-width: 1024px) {
       @content;
     }
     @media (hover: none) and (pointer: coarse) {

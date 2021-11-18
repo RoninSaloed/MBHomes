@@ -11,42 +11,49 @@
     background-position: center center;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 .slider__body1 {
     background: url(../img/slider/Demirtas.png) 100% 100%;
     background-position: center center;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 .slider__body2 {
     background: url(../img/slider/Renesans.png) 100% 100%;
     background-position: center center;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 .slider__body3 {
     background: url(../img/slider/Fonfoa.png) 100% 100%;
     background-position: center center;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 .slider__body4 {
     background: url(../img/slider/tnh2.png) 100% 100%;
     background-position: center center;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 .slider__body5 {
     background: url(../img/slider/tnh1.png) 100% 100%;
     background-position: center center;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 .slider__body6 {
     background: url(../img/slider/Villas.png) 100% 100%;
     background-position: center center;
     height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 .slider__title {
     margin: 100px 0 0 0;
@@ -59,14 +66,18 @@
     font-size: 30px;
     line-height: 37px;
     position: relative;
+
     @include breakpoint(xs) {
         font-size: 22px;
+    }
+    @include breakpoint(smxs) {
+        margin: 90px 0 0 0;
     }
 }
 .slider__title::before {
     content: "";
     background: #ffd447;
-    width: 142%;
+    width: 197%;
     right: 0;
     height: 2px;
     position: absolute;
@@ -78,15 +89,44 @@
     justify-content: space-between;
     align-items: flex-end;
     height: 80%;
+    @include breakpoint(xs) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        height: 80%;
+    }
 }
 
 .slider__subtitle {
     font-family: Century Gothic;
     font-style: normal;
+    font-weight: normal;
     font-size: 64px;
     line-height: 78px;
     max-width: 900px;
     color: #ffffff;
+    @include breakpoint(md-up) {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    @include breakpoint(xs) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 80%;
+        line-height: 50px;
+        margin: 0 0 30px 0;
+    }
+    @include breakpoint(smxs) {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 0 0 30px 0;
+        margin: 0 auto;
+    }
 }
 .slider__subtitle p {
     display: flex;
@@ -98,6 +138,14 @@
     line-height: 78px;
     max-width: 700px;
     color: #ffffff;
+    @include breakpoint(md-up) {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    @include breakpoint(smxs) {
+        font-size: 24px;
+        line-height: 30px;
+    }
 }
 
 .slider__button button {
@@ -114,6 +162,19 @@
     border-radius: 48px;
     width: 550px;
     height: 90px;
+    @include breakpoint(md-up) {
+        width: 450px;
+        height: 70px;
+    }
+    @include breakpoint(smxs) {
+        width: 155px;
+        height: 36px;
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 .slick-track {
     display: flex;
@@ -129,14 +190,31 @@
     top: 50%;
     width: 37px;
     height: 69px;
+    @include breakpoint(smxs) {
+        width: 16px;
+        height: 30px;
+    }
 }
 
 .slider__item .slick-arrow.slick-prev {
     left: 100px;
     background: url("../img/slider/left.svg") 0 0 / 100% no-repeat;
+
+    @include breakpoint(md-up) {
+        left: 40px;
+    }
+    @include breakpoint(smxs) {
+        left: 30px;
+    }
 }
 
 .slider__item .slick-arrow.slick-next {
     background: url("../img/slider/right.svg") 0 0 / 100% no-repeat;
     right: 100px;
+    @include breakpoint(md-up) {
+        right: 40px;
+    }
+    @include breakpoint(smxs) {
+        right: 30px;
+    }
 }
