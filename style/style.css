@@ -795,6 +795,7 @@ h6 {
   .slider__button button {
     width: 155px;
     height: 36px;
+    margin: 0 0 0 20px;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: bold;

@@ -162,6 +162,7 @@
     border-radius: 48px;
     width: 550px;
     height: 90px;
+
     @include breakpoint(md-up) {
         width: 450px;
         height: 70px;
@@ -169,6 +170,7 @@
     @include breakpoint(smxs) {
         width: 155px;
         height: 36px;
+        margin: 0 0 0 20px;
         font-family: Century Gothic;
         font-style: normal;
         font-weight: bold;
