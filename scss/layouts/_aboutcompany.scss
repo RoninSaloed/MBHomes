@@ -1,0 +1,146 @@
+.company {
+    background: #000000 url("../img/Vector\ 1.svg") no-repeat;
+    background-size: 100%;
+
+    @include breakpoint(xs) {
+        background-size: 100%;
+    }
+}
+
+.company__text {
+    color: #fff;
+    margin: 190px 0 0 0;
+
+    @include breakpoint(xs) {
+        margin: 80px 0 0 0;
+    }
+}
+
+.company__title {
+    display: inline-block;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+    @include breakpoint(xs) {
+        font-size: 22px;
+    }
+}
+.company__title::before {
+    content: "";
+    background: #ffd447;
+    width: 400%;
+    right: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -1px;
+}
+
+.company__subtitle {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    @include breakpoint(md-up) {
+        padding: 90px 0 0 0;
+    }
+    @include breakpoint(xs) {
+        font-size: 22px;
+        padding: 90px 0 0 0;
+    }
+}
+
+.company__item {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 1 33.333%;
+    @include breakpoint(xs) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex: 0 1 33.333%;
+    }
+}
+.company__brend {
+    width: 250px;
+    text-align: center;
+}
+.company__brend img {
+    width: 200px;
+    height: 100px;
+}
+
+.company__name {
+    margin: 10px 0 0 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    @include breakpoint(xs) {
+        font-size: 22px;
+        margin: 10px 0 20px 0;
+    }
+}
+
+.company__subtext {
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    max-width: 970px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-align: center;
+    color: #fff;
+    @include breakpoint(xs) {
+        font-size: 18px;
+    }
+}
+.company__sublinetext p {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #ffd447;
+    @include breakpoint(xs) {
+        font-size: 18px;
+    }
+}
+.company__sublinetext {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    max-width: 970px;
+    margin: 0 auto;
+
+    text-align: center;
+    padding: 0 0 100px 0;
+    @include breakpoint(xs) {
+        font-size: 18px;
+    }
+}

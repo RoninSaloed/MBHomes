@@ -1,0 +1,4 @@
+@import "mixins/fontface";
+
+@include fontface(Century Gothic, 700, Bold, n);
+@include fontface(Century Gothic, 400, Regular, n);
