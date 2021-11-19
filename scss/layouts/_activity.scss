@@ -1,0 +1,102 @@
+.ativity {
+    background: #000000;
+}
+
+.activity__title {
+    margin: 200px 0 0 0;
+    color: #ffffff;
+
+    display: inline-block;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+
+    @include breakpoint(xs) {
+        font-size: 22px;
+    }
+    @include breakpoint(smxs) {
+        margin: 90px 0 0 0;
+        font-size: 12px;
+    }
+}
+.activity__title::before {
+    content: "";
+    background: #ffd447;
+    width: 400%;
+    right: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -1px;
+}
+
+.activity__text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 992px;
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px 0 100px 0;
+
+    font-size: 24px;
+    line-height: 24px;
+    @include breakpoint(md-up) {
+        padding: 90px 0 80px 0;
+    }
+    @include breakpoint(xs) {
+        font-size: 22px;
+        padding: 60px 0 40px 0;
+    }
+    @include breakpoint(xs) {
+        font-size: 18px;
+    }
+}
+
+.activity__item {
+}
+
+.activity__ico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.activity__body {
+    flex: 1 0 25%;
+    text-align: center;
+    width: 300px;
+    @include breakpoint(xs) {
+        flex: 1 0 50%;
+        margin: 0 0 30px 0;
+    }
+    @include breakpoint(sxs) {
+        flex: 1 0 100%;
+        margin: 0 0 30px 0;
+    }
+}
+.activity__body img {
+    width: 145px;
+    height: 114px;
+}
+
+.activity__name {
+    margin: 30px 0 100px 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    @include breakpoint(xs) {
+        font-size: 22px;
+        margin: 10px 0 20px 0;
+    }
+}

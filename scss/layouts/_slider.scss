@@ -72,12 +72,13 @@
     }
     @include breakpoint(smxs) {
         margin: 90px 0 0 0;
+        font-size: 12px;
     }
 }
 .slider__title::before {
     content: "";
     background: #ffd447;
-    width: 197%;
+    width: 400%;
     right: 0;
     height: 2px;
     position: absolute;
@@ -163,7 +164,7 @@
     width: 550px;
     height: 90px;
 
-    @include breakpoint(md-up) {
+    @include breakpoint(lg-hd) {
         width: 450px;
         height: 70px;
     }
@@ -178,6 +179,7 @@
         line-height: 15px;
     }
 }
+
 .slick-track {
     display: flex;
 }

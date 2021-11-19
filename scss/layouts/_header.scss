@@ -191,8 +191,9 @@
     height: 56px;
     @include breakpoint(xs) {
         background: url("../img/СТРЕЛКАВНИЗ.svg") no-repeat;
+        background-position: center center;
         background-size: 40px 28px;
-        margin: 0 0 0 0;
+        margin: 0 auto;
         text-align: center;
     }
 }

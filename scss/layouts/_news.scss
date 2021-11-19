@@ -1,0 +1,64 @@
+.news {
+    height: 100vh;
+    position: relative;
+}
+
+.news__back {
+    background: url("../img/construction.png") 100% 100%;
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.news__title {
+    margin: 100px 0 0 0;
+    color: #ffffff;
+
+    display: inline-block;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+
+    @include breakpoint(xs) {
+        font-size: 22px;
+    }
+    @include breakpoint(smxs) {
+        margin: 90px 0 0 0;
+        font-size: 12px;
+    }
+}
+.news__title::before {
+    content: "";
+    background: #ffd447;
+    width: 400%;
+    right: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -1px;
+}
+
+.news__image {
+    display: flex;
+    justify-content: center;
+}
+.news__image img {
+    position: absolute;
+    bottom: 100px;
+    max-width: 1036px;
+    width: 100%;
+    height: 583px;
+    @include breakpoint(xs) {
+        height: 453px;
+    }
+    @include breakpoint(xs) {
+        height: 453px;
+        bottom: 200px;
+    }
+    @include breakpoint(sxs) {
+        height: 253px;
+        bottom: 400px;
+    }
+}
