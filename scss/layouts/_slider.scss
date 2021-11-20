@@ -4,6 +4,7 @@
 
 .slider__item {
     position: relative;
+    min-height: 100vh;
 }
 
 .slider__body {
@@ -15,42 +16,37 @@
 .slider__body1 {
     background: url(../img/slider/Demirtas.png) 100% 100%;
     background-position: center center;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
 .slider__body2 {
     background: url(../img/slider/Renesans.png) 100% 100%;
     background-position: center center;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
 .slider__body3 {
     background: url(../img/slider/Fonfoa.png) 100% 100%;
     background-position: center center;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
 .slider__body4 {
     background: url(../img/slider/tnh2.png) 100% 100%;
     background-position: center center;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
 .slider__body5 {
     background: url(../img/slider/tnh1.png) 100% 100%;
     background-position: center center;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
 .slider__body6 {
     background: url(../img/slider/Villas.png) 100% 100%;
     background-position: center center;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
@@ -170,7 +166,7 @@
     @include breakpoint(smxs) {
         width: 155px;
         height: 36px;
-        margin: 0 0 0 20px;
+        margin: 0 0 20px 20px;
         font-family: Century Gothic;
         font-style: normal;
         font-weight: bold;

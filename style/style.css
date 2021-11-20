@@ -562,7 +562,7 @@ h6 {
   max-width: 970px;
   margin: 0 auto;
   text-align: center;
-  padding: 0 0 100px 0;
+  padding: 0 0 50px 0;
 }
 
 @media (max-width: 767px) {
@@ -577,6 +577,7 @@ h6 {
 
 .slider__item {
   position: relative;
+  min-height: 100vh;
 }
 
 .slider__body {
@@ -589,7 +590,6 @@ h6 {
 .slider__body1 {
   background: url(../img/slider/Demirtas.png) 100% 100%;
   background-position: center center;
-  height: 100vh;
   background-size: cover;
   overflow: hidden;
 }
@@ -597,7 +597,6 @@ h6 {
 .slider__body2 {
   background: url(../img/slider/Renesans.png) 100% 100%;
   background-position: center center;
-  height: 100vh;
   background-size: cover;
   overflow: hidden;
 }
@@ -605,7 +604,6 @@ h6 {
 .slider__body3 {
   background: url(../img/slider/Fonfoa.png) 100% 100%;
   background-position: center center;
-  height: 100vh;
   background-size: cover;
   overflow: hidden;
 }
@@ -613,7 +611,6 @@ h6 {
 .slider__body4 {
   background: url(../img/slider/tnh2.png) 100% 100%;
   background-position: center center;
-  height: 100vh;
   background-size: cover;
   overflow: hidden;
 }
@@ -621,7 +618,6 @@ h6 {
 .slider__body5 {
   background: url(../img/slider/tnh1.png) 100% 100%;
   background-position: center center;
-  height: 100vh;
   background-size: cover;
   overflow: hidden;
 }
@@ -629,7 +625,7 @@ h6 {
 .slider__body6 {
   background: url(../img/slider/Villas.png) 100% 100%;
   background-position: center center;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   overflow: hidden;
 }
@@ -808,7 +804,7 @@ h6 {
   .slider__button button {
     width: 155px;
     height: 36px;
-    margin: 0 0 0 20px;
+    margin: 0 0 20px 20px;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: bold;
@@ -878,14 +874,14 @@ h6 {
 }
 
 .news {
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
 .news__back {
   background: url("../img/construction.png") 100% 100%;
   background-position: center center;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
 }
 
@@ -957,7 +953,7 @@ h6 {
 @media (max-width: 450px) {
   .news__image img {
     height: 253px;
-    bottom: 400px;
+    bottom: 200px;
   }
 }
 
