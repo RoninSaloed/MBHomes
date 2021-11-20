@@ -116,6 +116,7 @@
     color: #fff;
     @include breakpoint(xs) {
         font-size: 18px;
+        padding: 40px 0 50px 0;
     }
 }
 .company__sublinetext p {

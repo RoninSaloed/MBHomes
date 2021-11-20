@@ -534,6 +534,7 @@ h6 {
 @media (max-width: 767px) {
   .company__subtext {
     font-size: 18px;
+    padding: 40px 0 50px 0;
   }
 }
 
