@@ -745,7 +745,7 @@ h6 {
   .slider__subtitle {
     font-size: 24px;
     line-height: 30px;
-    padding: 0 0 30px 0;
+    padding: 0 0 0px 0;
     margin: 0 auto;
   }
 }
@@ -1077,6 +1077,20 @@ h6 {
   height: 114px;
 }
 
+@media (max-width: 1025px) {
+  .activity__body img {
+    width: 100px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .activity__body img {
+    width: 66px;
+    height: 66px;
+  }
+}
+
 .activity__name {
   margin: 30px 0 100px 0;
   color: #ffffff;
@@ -1361,6 +1375,12 @@ h6 {
   }
 }
 
+@media (max-width: 500px) {
+  .footer__contact {
+    height: 130px;
+  }
+}
+
 .footer__contact:last-child {
   width: 482px;
   height: 216px;
@@ -1373,13 +1393,19 @@ h6 {
 
 @media (max-width: 1400px) {
   .footer__contact:last-child {
-    height: 150px;
+    height: 130px;
   }
 }
 
 @media (max-width: 1025px) {
   .footer__contact:last-child {
     margin: 0px 0px 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__contact:last-child {
+    height: 120px;
   }
 }
 

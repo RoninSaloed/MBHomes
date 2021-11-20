@@ -81,6 +81,14 @@
 .activity__body img {
     width: 145px;
     height: 114px;
+    @include breakpoint(md-up) {
+        width: 100px;
+        height: 80px;
+    }
+    @include breakpoint(smxs) {
+        width: 66px;
+        height: 66px;
+    }
 }
 
 .activity__name {

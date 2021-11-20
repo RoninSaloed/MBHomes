@@ -24,6 +24,9 @@
     @include breakpoint(md-up) {
         margin: 0px 0px 60px 0;
     }
+    @include breakpoint(smxs) {
+        height: 130px;
+    }
 }
 .footer__contact:last-child {
     width: 482px;
@@ -34,10 +37,13 @@
     background: #ffd447;
     border-radius: 40px;
     @include breakpoint(lg-hd) {
-        height: 150px;
+        height: 130px;
     }
     @include breakpoint(md-up) {
         margin: 0px 0px 0 0;
+    }
+    @include breakpoint(smxs) {
+        height: 120px;
     }
 }
 .footer__contact p {
