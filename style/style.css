@@ -106,6 +106,7 @@ h6 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  min-height: 100vh;
 }
 
 .container {
@@ -305,7 +306,13 @@ h6 {
 }
 
 .menu__text {
-  margin: 560px 0 30px 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .menu__text p {
@@ -574,7 +581,6 @@ h6 {
 .slider__body {
   background: url(../img/slider/Dacha.png) 100% 100%;
   background-position: center center;
-  min-height: 100vh;
   background-size: cover;
   overflow: hidden;
 }
@@ -1025,6 +1031,8 @@ h6 {
   }
 }
 
+/*.activity__item {
+}*/
 .activity__ico {
   display: -webkit-box;
   display: -ms-flexbox;
