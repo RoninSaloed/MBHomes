@@ -7,7 +7,7 @@
 }
 
 .header {
-    background: linear-gradient(to bottom, transparent 65%, #ffd447), url("../img/ФОН.png") 100% 100%;
+    background: linear-gradient(to bottom, transparent 65%, #ffd447), url("../img/ФОН.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -156,7 +156,7 @@
 }
 
 .menu__text {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: flex-end;
 }

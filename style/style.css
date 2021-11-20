@@ -101,8 +101,8 @@ h6 {
 }
 
 .header {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, transparent), to(#ffd447)), url("../img/ФОН.png") 100% 100%;
-  background: linear-gradient(to bottom, transparent 65%, #ffd447), url("../img/ФОН.png") 100% 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, transparent), to(#ffd447)), url("../img/ФОН.png");
+  background: linear-gradient(to bottom, transparent 65%, #ffd447), url("../img/ФОН.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -306,7 +306,7 @@ h6 {
 }
 
 .menu__text {
-  height: 100vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
