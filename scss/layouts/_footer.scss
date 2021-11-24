@@ -11,81 +11,100 @@
     }
 }
 .footer__contact {
-    width: 482px;
-    height: 216px;
+    width: 340px;
+    height: 130px;
     left: 1316px;
     top: 6569px;
     margin: 0 55px;
     background: #ffd447;
     border-radius: 40px;
     @include breakpoint(lg-hd) {
-        height: 150px;
+        height: 120px;
     }
     @include breakpoint(md-up) {
-        margin: 0px 0px 60px 0;
+        margin: 0px 55px 60px 55px;
+        width: 300px;
     }
     @include breakpoint(smxs) {
-        height: 130px;
+        margin: 0px 0 60px 0;
+
+        height: 110px;
+        width: 278.87px;
     }
 }
 .footer__contact:last-child {
-    width: 482px;
-    height: 216px;
+    width: 340px;
+    height: 130px;
     left: 1316px;
     top: 6569px;
     margin: 0 55px;
     background: #ffd447;
     border-radius: 40px;
     @include breakpoint(lg-hd) {
-        height: 130px;
+        height: 120px;
     }
     @include breakpoint(md-up) {
         margin: 0px 0px 0 0;
+        width: 300px;
     }
     @include breakpoint(smxs) {
-        height: 120px;
+        height: 110px;
+        width: 278.87px;
     }
 }
 .footer__contact p {
     font-family: Century Gothic;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 37px;
     /* identical to box height */
-    padding: 20px 20px 20px 100px;
+    padding: 20px 20px 20px 80px;
 
     color: #000000;
     @include breakpoint(lg-hd) {
         font-size: 20px;
         line-height: 22px;
     }
+    @include breakpoint(md-up) {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    @include breakpoint(smxs) {
+        padding: 20px 20px 20px 60px;
+
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 .icon__place {
     background: url("../img/footer/place.svg") no-repeat;
     height: 100%;
-    background-size: 87px 87px;
+    background-size: 60px 60px;
     margin: 20px 0 0 20px;
     @include breakpoint(lg-hd) {
-        background-size: 72px 72px;
+        background-size: 60px 60px;
+    }
+    @include breakpoint(smxs) {
+        background-size: 50px 50px;
     }
 }
 .icon__phone {
     background: url("../img/footer/phone.svg") no-repeat;
     height: 100%;
-    background-size: 87px 87px;
+    background-size: 60px 60px;
     margin: 20px 0 0 20px;
-    @include breakpoint(lg-hd) {
-        background-size: 72px 72px;
+    @include breakpoint(smxs) {
+        background-size: 50px 50px;
     }
 }
 .icon__email {
     background: url("../img/footer/email.svg") no-repeat;
     height: 100%;
-    background-size: 87px 87px;
+    background-size: 60px 60px;
     margin: 20px 0 0 20px;
-    @include breakpoint(lg-hd) {
-        background-size: 72px 72px;
+    @include breakpoint(smxs) {
+        background-size: 50px 50px;
     }
 }
 

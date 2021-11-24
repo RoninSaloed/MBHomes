@@ -1,0 +1,57 @@
+.dacha__slide1 {
+    background: url(../img/Dacha/slider/first.png) 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.dacha__logo {
+    background: url("../img/Dacha/slider/logo.svg") no-repeat;
+    margin: 20px 0 0 0;
+    width: 260px;
+    height: 97px;
+    @include breakpoint(sxs) {
+        background-size: 160px 50px;
+    }
+}
+.dacha__slide2 {
+    background: url(../img/Dacha/slider/second.png) 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.dacha__slide3 {
+    background: url(../img/Dacha/slider/third.png) 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.dacha__slide4 {
+    background: url(../img/Dacha/slider/fourth.png) 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.dacha__slide5 {
+    background: url(../img/Dacha/slider/fifth.png) 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.dacha__slide6 {
+    background: url(../img/Dacha/slider/sixth.png) 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.dacha__slide7 {
+    background: url(../img/Dacha/slider/seventh.png) 100% 100%;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}

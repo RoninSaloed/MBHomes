@@ -1,6 +1,7 @@
 .company {
     background: #000000 url("../img/Vector\ 1.svg") no-repeat;
     background-size: 100%;
+    height: 100%;
 
     @include breakpoint(xs) {
         background-size: 100%;
@@ -13,6 +14,9 @@
 
     @include breakpoint(xs) {
         margin: 80px 0 0 0;
+    }
+    @include breakpoint(smxs) {
+        margin: 40px 0 0 0;
     }
 }
 
@@ -28,7 +32,6 @@
         font-size: 22px;
     }
     @include breakpoint(smxs) {
-        margin: 90px 0 0 0;
         font-size: 12px;
     }
 }
@@ -44,9 +47,8 @@
 
 .company__subtitle {
     text-align: center;
-    margin: 0 auto;
     max-width: 450px;
-
+    margin: 0 auto;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: normal;
@@ -82,6 +84,14 @@
 .company__brend img {
     width: 111px;
     height: 111px;
+    @include breakpoint(gl-hd) {
+        width: 90px;
+        height: 90px;
+    }
+    @include breakpoint(smxs) {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 .company__name {
@@ -101,10 +111,18 @@
         margin: 10px 0 20px 0;
     }
 }
-
+.company__listtext {
+    margin: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint(xs) {
+        margin: 30px 0 0 0;
+    }
+}
 .company__subtext {
-    margin: 0 auto;
-    padding: 80px 0 50px 0;
+    margin: 0 0 80px 0;
     max-width: 970px;
     font-family: Century Gothic;
     font-style: normal;
@@ -116,7 +134,7 @@
     color: #fff;
     @include breakpoint(xs) {
         font-size: 18px;
-        padding: 40px 0 50px 0;
+        margin: 0 0 40px 0;
     }
 }
 .company__sublinetext p {
@@ -134,17 +152,16 @@
     }
 }
 .company__sublinetext {
+    margin: 0 0 90px 0;
     font-family: Century Gothic;
     font-style: normal;
     font-size: 24px;
     line-height: 24px;
     color: #fff;
     max-width: 970px;
-    margin: 0 auto;
-    padding: 0 0 20px 0;
     text-align: center;
     @include breakpoint(xs) {
         font-size: 18px;
-        padding: 0 0 30px 0;
+        margin: 0 0 30px 0;
     }
 }

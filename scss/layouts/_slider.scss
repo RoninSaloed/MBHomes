@@ -4,13 +4,14 @@
 
 .slider__item {
     position: relative;
-    min-height: 100vh;
 }
 
 .slider__body {
     background: url(../img/slider/Dacha.png) 100% 100%;
     background-position: center center;
     background-size: cover;
+    min-height: 100vh;
+
     overflow: hidden;
 }
 .slider__body1 {
@@ -26,10 +27,13 @@
     overflow: hidden;
 }
 .slider__body3 {
-    background: url(../img/slider/Fonfoa.png) 100% 100%;
+    background: url(../img/slider/Fonfoa.png) no-repeat;
     background-position: center center;
     background-size: cover;
     overflow: hidden;
+    @include breakpoint(sxs) {
+        background-size: 200% 100%;
+    }
 }
 .slider__body4 {
     background: url(../img/slider/tnh2.png) 100% 100%;
@@ -46,7 +50,6 @@
 .slider__body6 {
     background: url(../img/slider/Villas.png) 100% 100%;
     background-position: center center;
-    min-height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
@@ -120,7 +123,6 @@
     @include breakpoint(smxs) {
         font-size: 24px;
         line-height: 30px;
-        padding: 0 0 0px 0;
         margin: 0 auto;
     }
 }

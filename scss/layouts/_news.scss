@@ -1,6 +1,6 @@
 .news {
-    height: 100%;
     position: relative;
+    height: 100vh;
 }
 
 .news__back {
@@ -26,7 +26,7 @@
         font-size: 22px;
     }
     @include breakpoint(smxs) {
-        margin: 90px 0 0 0;
+        margin: 40px 0 0 0;
         font-size: 12px;
     }
 }
@@ -45,7 +45,6 @@
     justify-content: center;
 }
 .news__image img {
-    position: absolute;
     bottom: 100px;
     max-width: 1036px;
     width: 100%;
