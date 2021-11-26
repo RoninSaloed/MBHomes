@@ -1,0 +1,195 @@
+.dacha__subtext {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: Regular;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #ffffff;
+    @include breakpoint(sxs) {
+        font-size: 12px;
+        display: none;
+        line-height: 15px;
+    }
+}
+.header__foahill {
+    background: url("../img/foahill/foahill.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+
+    z-index: -2;
+}
+.foahill__title {
+    display: inline-block;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    position: relative;
+    color: #ffffff;
+    @include breakpoint(lg-hd) {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    @include breakpoint(sxs) {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+.foahill__title::before {
+    content: "";
+    background: #fff;
+    width: 400%;
+    height: 2px;
+    right: 0;
+    position: absolute;
+    bottom: -1px;
+    @include breakpoint(sxs) {
+        display: none;
+    }
+}
+.foahill__title p {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    @include breakpoint(lg-hd) {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    @include breakpoint(sxs) {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+.foahill__subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+    @include breakpoint(sxs) {
+        margin: 0 0 90px 0;
+    }
+}
+
+.foahill__subtext1 {
+    font-family: Century Gothic;
+    font-style: normal;
+
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    color: #ffffff;
+    @include breakpoint(lg-hd) {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    @include breakpoint(sxs) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+.foahill__subtext2 {
+    flex: 0 1 860px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: right;
+
+    color: #ffd447;
+    @include breakpoint(lg-hd) {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    @include breakpoint(sxs) {
+        flex: 0 1 160px;
+
+        font-size: 12px;
+        line-height: 15px;
+        text-align: right;
+    }
+}
+
+.foahill__gradient {
+    position: relative;
+}
+.foahill__gradient::before {
+    content: "";
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 55.89%, rgba(0, 0, 0, 0) 103.91%);
+    width: 200%;
+    height: 100%;
+    left: -100%;
+    z-index: -1;
+
+    position: absolute;
+}
+.foahill__text {
+    max-width: 1113px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #ffffff;
+    margin: 0 0 30px 0;
+    @include breakpoint(lg-hd) {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    @include breakpoint(sxs) {
+        margin: 0 0 15px 0;
+
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+.foahill__subtext {
+    max-width: 1113px;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: Regular;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #ffffff;
+    margin: 0 0 50px 0;
+    @include breakpoint(lg-hd) {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    @include breakpoint(sxs) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+.foahill__subsubtext {
+    max-width: 1113px;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: Regular;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #ffffff;
+    @include breakpoint(lg-hd) {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    @include breakpoint(sxs) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
