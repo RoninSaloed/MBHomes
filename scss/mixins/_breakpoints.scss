@@ -1,6 +1,6 @@
 @mixin breakpoint($point) {
   @if $point == lg-hd {
-    @media (max-width: 1400px) {
+    @media (max-width: 1550px) {
       @content;
     }
   } @else if $point == lg {
