@@ -37,7 +37,7 @@
 }
 .company__title::before {
     content: "";
-    background: #ffd447;
+    background: #f3df5c;
     width: 400%;
     right: 0;
     height: 2px;
@@ -146,7 +146,7 @@
 
     text-align: center;
 
-    color: #ffd447;
+    color: #f3df5c;
     @include breakpoint(xs) {
         font-size: 18px;
     }
