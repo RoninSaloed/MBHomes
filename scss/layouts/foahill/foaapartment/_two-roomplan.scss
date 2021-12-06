@@ -1,0 +1,171 @@
+.tworoom__plan {
+    background: linear-gradient(to top, transparent 10%, #bd9d76), #000;
+    position: relative;
+}
+.tworoom-container {
+    max-width: 100%;
+}
+.tworoom__heading {
+    margin: 40px 0 35px 0;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #fefefe;
+    @include breakpoint(lg-hd) {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    @include breakpoint(sxs) {
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+
+        color: #fefefe;
+    }
+}
+
+.tworoom__item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    @include breakpoint(xs) {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+.tworoom__specifications {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    @include breakpoint(xs) {
+        width: 100%;
+    }
+}
+
+.tworoom__subtitle {
+    display: inline-block;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #fff;
+
+    @include breakpoint(lg-hd) {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    @include breakpoint(xs) {
+        display: none;
+    }
+    @include breakpoint(sxs) {
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: right;
+
+        color: #ffffff;
+    }
+}
+
+.tworoom__table {
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    @include breakpoint(xs) {
+        border-radius: 0;
+    }
+}
+.tworoom__table table {
+    width: 100%;
+}
+.tworoom__table table tr td:last-child {
+    text-align: right;
+    padding: 0 5% 0 0;
+    @include breakpoint(sxs) {
+        padding: 0 8% 0 0;
+    }
+}
+.tworoom__table table tr td:first-child {
+    padding: 3% 0 3% 5%;
+    @include breakpoint(sxs) {
+        padding: 0 0 2% 8%;
+    }
+}
+.tworoom__table table {
+    @include breakpoint(sxs) {
+        padding: 8% 0 5% 0;
+    }
+}
+.tworoom__table td {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    @include breakpoint(lg-hd) {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    @include breakpoint(sxs) {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+.tworoom__img {
+    @include breakpoint(xs) {
+        width: 100%;
+        text-align: right;
+    }
+}
+.tworoom__img img {
+    width: 100%;
+    max-width: 450px;
+    min-width: 200px;
+    @include breakpoint(xs) {
+        max-width: 300px;
+    }
+    @include breakpoint(sxs) {
+        max-width: 200px;
+    }
+}
+.tworoom__text {
+    padding: 0 10px;
+    margin: 140px 0 40px 0;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #ffffff;
+    @include breakpoint(lg-hd) {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    @include breakpoint(sxs) {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 20px 0 40px 0;
+        text-align: right;
+    }
+}
+.tworoom__text p {
+    margin: 0 0 5px 0;
+}

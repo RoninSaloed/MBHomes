@@ -1,0 +1,83 @@
+.loft {
+    background: linear-gradient(to bottom, transparent 65%, #bd9d76), url("../img/foahill/loft/loft.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.loft__back a {
+    background: url("../img/foahill/arrow.svg") left center no-repeat;
+    background-size: 40px;
+    padding: 25px 0 25px 55px;
+    @include breakpoint(lg-hd) {
+        background-size: 30px;
+        padding: 25px 0 25px 40px;
+    }
+    @include breakpoint(sxs) {
+        background-size: 20px;
+        padding: 25px 0 25px 30px;
+    }
+}
+.loft__back a::before {
+    display: none;
+}
+.loft__title {
+    min-height: 83vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    @include breakpoint(lg-hd) {
+        font-size: 32px;
+        line-height: 38px;
+        padding: 0 0 10px 0;
+    }
+    @include breakpoint(sxs) {
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        padding: 0 0 10px 0;
+
+        color: #fefefe;
+    }
+}
+.loft__first {
+    background: url("../img/foahill/loft/first.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.loft__second {
+    background: url("../img/foahill/loft/second.png");
+    background-repeat: no-repeat;
+    background-position: 30% center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.loft__third {
+    background: url("../img/foahill/loft/third.png");
+    background-repeat: no-repeat;
+    background-position: 30% center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.loft__fourth {
+    background: url("../img/foahill/loft/fourth.png");
+    background-repeat: no-repeat;
+    background-position: 30% center;
+    background-size: cover;
+    min-height: 100vh;
+}

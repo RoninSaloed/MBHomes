@@ -1,0 +1,86 @@
+.studio {
+    background: linear-gradient(to bottom, transparent 65%, #bd9d76), url("../img/foahill/studio/studio.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.studio__title {
+    min-height: 83vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    @include breakpoint(lg-hd) {
+        font-size: 32px;
+        line-height: 38px;
+        padding: 0 0 10px 0;
+    }
+    @include breakpoint(sxs) {
+        font-family: Century Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        padding: 0 0 10px 0;
+
+        color: #fefefe;
+    }
+}
+.studio__first {
+    background: url("../img/foahill/studio/first.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.studio__second {
+    background: url("../img/foahill/studio/second.png");
+    background-repeat: no-repeat;
+    background-position: 30% center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.studio__double {
+    display: flex;
+    @include breakpoint(xs) {
+        flex-wrap: wrap;
+    }
+}
+
+.studio__third1 {
+    flex: 0 1 50%;
+    background: url("../img/foahill/studio/third1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-size: cover;
+    min-height: 100vh;
+    @include breakpoint(xs) {
+        flex: 0 1 100%;
+    }
+}
+
+.studio__third2 {
+    flex: 0 1 50%;
+    background: url("../img/foahill/studio/third2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-size: cover;
+    min-height: 100vh;
+    @include breakpoint(xs) {
+        flex: 0 1 100%;
+    }
+}
