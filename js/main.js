@@ -5,6 +5,13 @@ $(document).ready(function () {
     });
 
 });
+$(document).ready(function () {
+    $('.news__slideritem').slick({
+        //autoplay: true,
+        //autoplaySpeed: 3000
+    });
+
+});
 const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
