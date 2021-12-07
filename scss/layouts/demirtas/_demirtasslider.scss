@@ -5,15 +5,7 @@
     height: 100vh;
     overflow: hidden;
 }
-.demirtas__logo {
-    background: url("../img/Demirtas/slider/logo.svg") no-repeat;
-    margin: 20px 0 0 0;
-    width: 260px;
-    height: 97px;
-    @include breakpoint(sxs) {
-        background-size: 160px 50px;
-    }
-}
+
 .demirtas__slide2 {
     background: url(../img/Demirtas/slider/second.png) 100% 100%;
     background-position: center center;

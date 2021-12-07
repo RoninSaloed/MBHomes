@@ -2807,19 +2807,6 @@ html body {
   overflow: hidden;
 }
 
-.demirtas__logo {
-  background: url("../img/Demirtas/slider/logo.svg") no-repeat;
-  margin: 20px 0 0 0;
-  width: 260px;
-  height: 97px;
-}
-
-@media (max-width: 450px) {
-  .demirtas__logo {
-    background-size: 160px 50px;
-  }
-}
-
 .demirtas__slide2 {
   background: url(../img/Demirtas/slider/second.png) 100% 100%;
   background-position: center center;
@@ -2994,7 +2981,7 @@ html body {
 }
 
 .why__left li {
-  background: url("../img/li.svg") left 15px no-repeat;
+  background: url("../img/Demirtas/li.svg") left 15px no-repeat;
   background-size: 42px 30px;
   height: 100%;
   padding: 12.5px 0 12.5px 55px;
